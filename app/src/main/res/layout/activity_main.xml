@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.example.zyb.qunyingzhuan5.DragView1
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent" />
+
+    <com.example.zyb.qunyingzhuan5.DragView2
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.zyb.qunyingzhuan5.DragView3
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <com.example.zyb.qunyingzhuan5.DragView4
+        android:layout_marginTop="8dp"
+        android:background="#0285cf"
+        android:text="@string/app_name"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <com.example.zyb.qunyingzhuan5.DragView5
+        android:layout_marginTop="8dp"
+        android:background="#1324fd"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+</LinearLayout>
